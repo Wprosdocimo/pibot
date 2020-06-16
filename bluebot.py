@@ -3,7 +3,7 @@ from gpiozero import Robot
 from signal import pause
 
 bd = BlueDot()
-robot = Robot(left=(17, 27), right=(23, 24))
+robot = Robot(right=(27, 17), left=(24, 23))
 
 def move(pos):
     if pos.top:
